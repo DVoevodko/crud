@@ -51,7 +51,15 @@ function App() {
   return (
     <div className="App">
       <div className="App-wrapper">
-        <h1 className="App-title">Notes</h1>
+        <h1 className="App-title">
+          Notes
+          &nbsp;
+          <button
+            className = 'App-control-refresh'
+            onClick={loadData}
+          >&#10227;
+          </button>
+        </h1>
         <div className="App-notes-container">
           {state.notes.map((note) => {
             return (

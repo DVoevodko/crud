@@ -18,3 +18,19 @@
   flex-wrap: wrap;
   width: 700px;
 }
+
+.App-control-refresh {
+  justify-content: center;
+  align-items: center;
+  min-width: 40px;
+  height: 40px;
+
+  font-size: 20px;
+
+  color: green;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 50%;
+  text-decoration: none;
+  user-select: none;
+}
